@@ -52,7 +52,7 @@ end
 function terminal.write(text)
     io.write(text)
     io.flush()  
-    print(string.format("Text written: %s", text)) 
+    --print(string.format( text)) 
 end
 
 return terminal
