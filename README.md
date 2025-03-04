@@ -6,7 +6,7 @@
 - Ensure terminal states **push before modification** and **pop after use**.
 - **Test Case:** Print colored text → Change color → Restore original color.
 
- **2. Non-Blocking Input (Critical Feature)**
+ **2. Non-Blocking Input**
 
 - Replace `io.read()` with a **coroutine-based or Copas-based solution**.
 - Implement **real-time input handling** (keypresses should register instantly).
@@ -18,7 +18,7 @@
 - Implement **smooth real-time updates** without flickering.
 - **Test Case:** Simulated **file download progress bar** with real-time updates.
 
-**4. Hidden Inputs (New Requirement)**
+**4. Hidden Inputs**
 
 - Implement **password-style input** (e.g., user input appears as `****`).
 - **Test Case:** A simple password field where input remains hidden
