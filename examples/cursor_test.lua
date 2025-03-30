@@ -1,3 +1,5 @@
+package.path = "./src/?.lua;" .. package.path
+
 local t = require("terminal")
 
 print("Normal text")  -- Default position
