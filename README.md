@@ -7,10 +7,9 @@
 - **Test Case:** Print colored text → Change color → Restore original color.
 
  **2. Non-Blocking Input**
-
-- Replacing `io.read()` with a **coroutine-based or Copas-based solution**.
+ 
 - Implementing **real-time input handling** .
-- **Test Case:** A simple text input field that updates live as the user types.
+- **Test Case:** A simple text input field that returns key and type and closes if there is no input .
 
 **3. Progress Indicators & Bars**
 
